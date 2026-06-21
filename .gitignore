@@ -1,0 +1,8 @@
+build/
+sdkconfig
+sdkconfig.old
+partitions.csv
+sdkconfig.defaults
+dependencies.lock
+idf-env.exe
+wolfSSL.code-workspace

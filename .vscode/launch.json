@@ -1,0 +1,31 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "gdbtarget",
+      "request": "attach",
+      "name": "Eclipse CDT GDB Adapter"
+    },
+    {
+      //"type": "espidf",
+      //"name": "Launch",
+      //"request": "launch"
+
+      "type": "espidf",
+      "name": "ESP-IDF: Debug",
+      "request": "launch",
+      "interface": "jtag",
+      "jtag_interface": "builtin" // Bardzo ważne dla ESP32-S3!
+    },
+
+   // {
+     // "name": "ESP32 OpenOCD",
+     // "type": "cppdbg",
+     // "request": "launch",
+     // "cwd": "${workspaceFolder}/build",
+     // "program":"${workspaceFolder}/build/wolfSSL.elf",
+     // "miDebuggerPath": "C:/Users/HP/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin",
+
+    //}
+  ]
+}

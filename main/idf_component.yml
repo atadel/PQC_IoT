@@ -1,0 +1,7 @@
+dependencies:
+  idf:
+    version: '>=4.1.0'
+  wolfssl/wolfssl:
+    version: 5.8.2~1
+  espressif/mqtt: '*'
+  wolfssl/wolfmqtt: ^1.18.0
