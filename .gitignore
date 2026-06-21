@@ -6,3 +6,5 @@ sdkconfig.defaults
 dependencies.lock
 idf-env.exe
 wolfSSL.code-workspace
+key.log
+build.log
