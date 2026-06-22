@@ -1,3 +1,5 @@
+//Author: Aleksandra Tadel
+
 #ifndef PQC_MEASURE_H
 #define PQC_MEASURE_H
 

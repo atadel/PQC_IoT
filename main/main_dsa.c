@@ -1,4 +1,6 @@
-/* gnu c and posix includes */
+//Author: Aleksandra Tadel
+//Based on wolfSSL example: https://github.com/wolfSSL/wolfssl-examples/blob/master/pq/ml_dsa/ml_dsa.c
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdint.h>

@@ -1,3 +1,5 @@
+//File modified by Aleksandra Tadel for measurement purposes
+
 /* ssl.c
  *
  * Copyright (C) 2006-2025 wolfSSL Inc.

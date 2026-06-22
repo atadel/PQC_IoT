@@ -1,3 +1,5 @@
+//File modified by Aleksandra Tadel for measurement purposes
+
 /* mqtt_socket.c
  *
  * Copyright (C) 2006-2023 wolfSSL Inc.

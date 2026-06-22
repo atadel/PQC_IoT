@@ -1,3 +1,5 @@
+//File modified by Aleksandra Tadel for measurement purposes
+
 /* tls13.c
  *
  * Copyright (C) 2006-2025 wolfSSL Inc.
@@ -13395,7 +13397,7 @@ int wolfSSL_connect_TLSv13(WOLFSSL* ssl)
             }
         #ifndef NO_CERTS
             if (!ssl->options.resuming && ssl->options.sendVerify) {
-                start_measure("ClientCert");
+                //start_measure("ClientCert");
                 ssl->error = SendTls13Certificate(ssl);
                 if (ssl->error != 0) {
                 #ifdef WOLFSSL_CHECK_ALERT_ON_ERR
@@ -13444,7 +13446,7 @@ int wolfSSL_connect_TLSv13(WOLFSSL* ssl)
                 return WOLFSSL_FATAL_ERROR;
             }
             WOLFSSL_MSG("sent: finished");
-            end_measure(); //server / client cert
+            //end_measure(); //server / client cert
             
 
 #ifdef WOLFSSL_DTLS13

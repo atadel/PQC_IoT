@@ -1,3 +1,5 @@
+//Author: Aleksandra Tadel
+
 #include "esp_heap_trace.h"
 #include "measure.h"
 #include <stdio.h>

@@ -1,3 +1,7 @@
+//Author: Aleksandra Tadel
+//Based on wolfSSL and wolfMQTT examples: https://github.com/wolfSSL
+
+
 #include <esp_log.h>
 #include <wolfssl/ssl.h>
 #include <wolfssl/version.h>

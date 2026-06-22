@@ -1,3 +1,6 @@
+//Author: Aleksandra Tadel
+//Based on wolfSSL example: https://github.com/wolfSSL/wolfssl-examples/blob/master/pq/ml_kem/ml_kem.c
+
 #include <esp_log.h>
 #include <wolfssl/ssl.h>
 #include <wolfssl/version.h>
